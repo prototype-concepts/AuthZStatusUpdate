@@ -1,0 +1,18 @@
+﻿<form name="notifyForm">
+    <h2>Order Authorization Status</h2>
+    <div class="container">
+        <strong>
+            Most Recent Status:
+        </strong>
+        {{notification.mostRecent}}
+        <div data-ng-if="notification.hasNotifications">
+            <br> <br />
+            <hr />
+            History of updates.
+            <ul id="discussion">
+                <li ng-repeat="c in notification.all"><strong>{{c}}</strong></li>
+            </ul>
+            <hr />
+        </div>
+    </div>
+</form>

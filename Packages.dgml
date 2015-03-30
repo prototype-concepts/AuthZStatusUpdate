@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="AuthZStatusPOC" Label="AuthZStatusPOC" Category="Project" />
+    <Node Id="angularjs 1.3.14" Label="angularjs 1.3.14" Category="Package" />
+    <Node Id="AngularJS.Core 1.3.8" Label="AngularJS.Core 1.3.8" Category="Package" />
+    <Node Id="AngularJS.Route 1.3.8" Label="AngularJS.Route 1.3.8" Category="Package" />
+    <Node Id="AngularJs.SignalR.Hub 1.4.0" Label="AngularJs.SignalR.Hub 1.4.0" Category="Package" />
+    <Node Id="Antlr 3.4.1.9004" Label="Antlr 3.4.1.9004" Category="Package" />
+    <Node Id="bootstrap 3.3.2" Label="bootstrap 3.3.2" Category="Package" />
+    <Node Id="jQuery 2.1.3" Label="jQuery 2.1.3" Category="Package" />
+    <Node Id="jQuery.Validation 1.11.1" Label="jQuery.Validation 1.11.1" Category="Package" />
+    <Node Id="log4net 2.0.3" Label="log4net 2.0.3" Category="Package" />
+    <Node Id="Microsoft.AspNet.Cors 5.2.3" Label="Microsoft.AspNet.Cors 5.2.3" Category="Package" />
+    <Node Id="Microsoft.AspNet.Mvc 5.2.2" Label="Microsoft.AspNet.Mvc 5.2.2" Category="Package" />
+    <Node Id="Microsoft.AspNet.Razor 3.2.2" Label="Microsoft.AspNet.Razor 3.2.2" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR 2.2.0" Label="Microsoft.AspNet.SignalR 2.2.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.Core 2.2.0" Label="Microsoft.AspNet.SignalR.Core 2.2.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.JS 2.2.0" Label="Microsoft.AspNet.SignalR.JS 2.2.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.SystemWeb 2.2.0" Label="Microsoft.AspNet.SignalR.SystemWeb 2.2.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.Web.Optimization 1.1.3" Label="Microsoft.AspNet.Web.Optimization 1.1.3" Category="Package" />
+    <Node Id="Microsoft.AspNet.WebPages 3.2.2" Label="Microsoft.AspNet.WebPages 3.2.2" Category="Package" />
+    <Node Id="Microsoft.jQuery.Unobtrusive.Validation 3.2.2" Label="Microsoft.jQuery.Unobtrusive.Validation 3.2.2" Category="Package" />
+    <Node Id="Microsoft.Owin 3.0.1" Label="Microsoft.Owin 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Cors 3.0.1" Label="Microsoft.Owin.Cors 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Host.SystemWeb 3.0.0" Label="Microsoft.Owin.Host.SystemWeb 3.0.0" Category="Package" />
+    <Node Id="Microsoft.Owin.Security 3.0.0" Label="Microsoft.Owin.Security 3.0.0" Category="Package" />
+    <Node Id="Microsoft.Web.Infrastructure 1.0.0.0" Label="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package" />
+    <Node Id="Modernizr 2.6.2" Label="Modernizr 2.6.2" Category="Package" />
+    <Node Id="Newtonsoft.Json 6.0.4" Label="Newtonsoft.Json 6.0.4" Category="Package" />
+    <Node Id="Owin 1.0" Label="Owin 1.0" Category="Package" />
+    <Node Id="Respond 1.2.0" Label="Respond 1.2.0" Category="Package" />
+    <Node Id="WebGrease 1.5.2" Label="WebGrease 1.5.2" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="AngularJS.Route 1.3.8" Target="AngularJS.Core 1.3.8" Category="Package Dependency" />
+    <Link Source="AngularJs.SignalR.Hub 1.4.0" Target="Microsoft.AspNet.SignalR 2.2.0" Category="Package Dependency" />
+    <Link Source="bootstrap 3.3.2" Target="jQuery 2.1.3" Category="Package Dependency" />
+    <Link Source="jQuery.Validation 1.11.1" Target="jQuery 2.1.3" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.Mvc 5.2.2" Target="Microsoft.AspNet.WebPages 3.2.2" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.Mvc 5.2.2" Target="Microsoft.AspNet.Razor 3.2.2" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR 2.2.0" Target="Microsoft.AspNet.SignalR.JS 2.2.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR 2.2.0" Target="Microsoft.AspNet.SignalR.SystemWeb 2.2.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Newtonsoft.Json 6.0.4" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Microsoft.Owin.Security 3.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.JS 2.2.0" Target="jQuery 2.1.3" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.SystemWeb 2.2.0" Target="Microsoft.AspNet.SignalR.Core 2.2.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.SystemWeb 2.2.0" Target="Microsoft.Owin.Host.SystemWeb 3.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.Web.Optimization 1.1.3" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.Web.Optimization 1.1.3" Target="WebGrease 1.5.2" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.2.2" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.2.2" Target="Microsoft.AspNet.Razor 3.2.2" Category="Package Dependency" />
+    <Link Source="Microsoft.jQuery.Unobtrusive.Validation 3.2.2" Target="jQuery 2.1.3" Category="Package Dependency" />
+    <Link Source="Microsoft.jQuery.Unobtrusive.Validation 3.2.2" Target="jQuery.Validation 1.11.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.AspNet.Cors 5.2.3" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Host.SystemWeb 3.0.0" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Host.SystemWeb 3.0.0" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Security 3.0.0" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Security 3.0.0" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="WebGrease 1.5.2" Target="Antlr 3.4.1.9004" Category="Package Dependency" />
+    <Link Source="WebGrease 1.5.2" Target="Newtonsoft.Json 6.0.4" Category="Package Dependency" />
+    <Link Source="AuthZStatusPOC" Target="angularjs 1.3.14" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="AngularJS.Route 1.3.8" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="AngularJs.SignalR.Hub 1.4.0" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="bootstrap 3.3.2" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="log4net 2.0.3" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="Microsoft.AspNet.Mvc 5.2.2" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="Microsoft.AspNet.Web.Optimization 1.1.3" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="Microsoft.jQuery.Unobtrusive.Validation 3.2.2" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="Microsoft.Owin.Cors 3.0.1" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="Modernizr 2.6.2" Category="Installed Package" />
+    <Link Source="AuthZStatusPOC" Target="Respond 1.2.0" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>
